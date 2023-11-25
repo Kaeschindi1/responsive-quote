@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta section -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Responsive Random QUote Generator">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Quotes, API">
+    <meta name="author" content="Esther Kalu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title section -->
+    <title>Responsive Random Quote Generator</title>
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <blockquote>
+        <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+        </h1>
+
+        <p class="author" id="author"></p>
+
+        <hr>
+        <button class="next" onclick="getNewQuote()">Next quote</button>
+    </blockquote>
+
+
+    <script src="./quote.js"></script>
+</body>
+</html>
